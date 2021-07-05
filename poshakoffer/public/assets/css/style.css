@@ -1,0 +1,61 @@
+:lang(fa){
+	direction:	rtl;
+	text-align:	right;
+}
+:lang(en){
+	direction:	ltr;
+	text-align:	left;
+	/*font-family:	'Lateef', cursive;
+	font-family:	'Markazi Text', cursive;*/
+}
+
+.btn-primary{
+	/*background-color:	rgb(227, 114, 75);
+	border-color:		rgb(211, 98, 59);*/
+}
+.btn-primary:hover{
+	/*background-color:	rgb(195, 82, 43);
+	border-color:		rgb(211, 98, 59);*/
+}
+
+.form-control{
+	/* border-width:	0px 0px 2px 0px;
+	border-color: 	rgb(227, 114, 75); */
+
+	border-radius:	4px;
+}
+
+.form-check-input:checked{
+	/*background-color:	rgb(227, 114, 75);
+	border-color:		rgb(211, 98, 59);*/
+}
+
+.input-group-text{
+	/*background-color:	rgb(227, 114, 75);
+	border-color:		rgb(211, 98, 59);
+	color: 				white;*/
+}
+
+aside{
+	background:		silver;
+
+}
+
+nav.sticky-top{
+	background:		hsla(0, 0%, 80%, 0.9);
+}
+
+/* validation */
+:focus:invalid{
+	/* outline-color:		hsl(-10, 90%, 70%);
+	outline:			none;
+	box-shadow:			0;*/
+	border-color:		hsl(-10, 90%, 70%);
+}
+
+:focus:valid:not( [type = "submit"] ){
+	/*outline-color:		hsl(120, 90%, 50%);
+	outline:			none;
+	box-shadow:			0;*/
+	border-color:		hsl(120, 90%, 50%);
+}
